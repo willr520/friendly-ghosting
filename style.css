@@ -1,0 +1,219 @@
+
+@font-face {
+    font-family: Karrik;
+    src: url(Karrik-Regular.ttf);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #C0B5DA;
+}
+
+
+section .animate {
+    transition:1s;
+}
+
+
+.sec-2 .animate {
+    transform: translateX(100%);
+}
+
+.sec-2.show-animate .animate {
+    transform: translateX(0);
+}
+
+.sec-3 .animate {
+    transform: translateX(100%);
+}
+
+.sec-3.show-animate .animate {
+    transform: translateX(0);
+}
+
+.sec-4 .animate {
+    transform: translateX(100%);
+}
+
+.sec-4.show-animate .animate {
+    transform: translateX(0);
+}
+
+.sec-5 .animate {
+    transform: translateX(100%);
+}
+
+.sec-5.show-animate .animate {
+    transform: translateX(0);
+}
+
+.sec-6 .animate {
+    transform: translateX(100%);
+}
+
+.sec-6.show-animate .animate {
+    transform: translateX(0);
+}
+
+.sec-7 .animate {
+    transform: translateX(100%);
+}
+
+.sec-7.show-animate .animate {
+    transform: translateX(0);
+}
+
+.sec-8 .animate {
+    transform: translateX(100%);
+}
+
+.sec-8.show-animate .animate {
+    transform: translateX(0);
+}
+
+.sec-9 .animate {
+    transform: translateX(100%);
+}
+
+.sec-9.show-animate .animate {
+    transform: translateX(0);
+}
+
+
+body {
+    font-family: Karrik;
+    text-decoration: none;
+    background-color: #F9F8FC;
+}
+
+#header {
+    height:200px;
+    font-family: Karrik;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-1 {
+    background-color: #605C6D;
+}
+
+.sec-9 {
+    
+        background-color: #605C6D;
+        color:white;
+    
+}
+#header #titlename {
+    margin-left:60px;
+}
+
+#header img {
+    width: 10vh;
+}
+
+#paragraph1 {
+    padding:40px;
+    color:white;
+}
+
+#barchart {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align:center;
+    align-items:center
+}
+
+#barchart img {
+    width:75%;
+}
+
+#paragraph2 {
+    padding:40px;
+}
+
+#paragraph3 {
+    padding:40px;
+}
+
+#tables {
+    display:flex;
+    justify-content: center;
+    text-align:center;
+    align-items:center;
+}
+
+#tables img {
+    text-align: center;
+    width:150vh;
+}
+
+
+#paragraph4 {
+    padding:40px;
+
+}
+
+#significantresults {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align:center;
+    align-items:center
+}
+#significantresults img {
+    width:75%;
+}
+
+#paragraph5 {
+    padding:40px;
+}
+
+#plots {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#plots img {
+    width:100%;
+    text-align: center;
+}
+
+#paragraph6 {
+    padding:40px;
+}
+
+#paragraph7 {
+    padding:40px;
+}
+
+#paragraph8 {
+    padding:40px;
+}
+body {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
