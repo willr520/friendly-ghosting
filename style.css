@@ -4,7 +4,7 @@
     src: url(Karrik-Regular.ttf);
 }
 
-section {
+.sec-1, .sec-2, .sec-3, .sec-5, .sec-6, .sec-7, .sec-8, .sec-9 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,6 +17,7 @@ a {
     text-decoration: none;
     color: #C0B5DA;
 }
+
 
 
 section .animate {
@@ -156,13 +157,13 @@ body {
 #tables {
     display:flex;
     justify-content: center;
+    flex-direction: column;
     text-align:center;
     align-items:center;
 }
 
 #tables img {
-    text-align: center;
-    width:150vh;
+    width:75%;
 }
 
 
