@@ -13,6 +13,8 @@
     overflow-x: hidden;
 }
 
+
+
 a {
     text-decoration: none;
     color: #C0B5DA;
@@ -223,4 +225,18 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-thumb {
     background-color: transparent;
+}
+
+@media only screen and (max-width: 600px) {
+    #header {
+        height: 150px; /* Adjust the height as needed */
+    }
+
+    #header #titlename {
+        margin-left: 20px; /* Adjust the margin as needed */
+    }
+
+    #header img {
+        width: 7vh; /* Adjust the width as needed */
+    }
 }
