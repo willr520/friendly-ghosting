@@ -239,4 +239,9 @@ body::-webkit-scrollbar-thumb {
     #header img {
         width: 7vh; /* Adjust the width as needed */
     }
+
+    #barchart, #tables, #significantresults, #plots img {
+        width:100vw;
+        height:10vh;
+    }
 }
