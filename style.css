@@ -4,13 +4,17 @@
     src: url(Karrik-Regular.ttf);
 }
 
-.sec-1, .sec-2, .sec-3, .sec-5, .sec-6, .sec-7, .sec-8, .sec-9 {
+.sec-1, .sec-4, .sec-2, .sec-3, .sec-5, .sec-6, .sec-7, .sec-8, .sec-9 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
     overflow-x: hidden;
+}
+
+.sec-4 img {
+    width:100%
 }
 
 
@@ -157,15 +161,17 @@ body {
 }
 
 #tables {
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align:center;
-    align-items:center;
+    text-align: center;
+    align-items: center;
+    width: 100%; /* Set the width of the container to 100% */
 }
 
 #tables img {
-    width:100%;
+    width: 100%; /* Set the width of the image to 100% */
+    max-width: 100%; /* Ensure the image does not exceed its original size */
 }
 
 
